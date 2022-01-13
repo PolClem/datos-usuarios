@@ -32,7 +32,6 @@ const Posts = (props) => {
 
 	//modal
 	const [modal, setModal] = useState(false);
-	const [postModal, setPostModal] = useState([]);
 
 	const openCloseModal = () => {
 		setModal(!modal);
