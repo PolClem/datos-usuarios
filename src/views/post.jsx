@@ -1,19 +1,19 @@
 // post
 
 import React from 'react';
-import { Card, CardContent, Grid, Typography } from '@material-ui/core';
+import { useEffect, useState } from 'react';
+
+import '../App.css';
 
 const Post = (props) => {
 	return (
-		<Grid className="post">
-			<Card variant="outlined">
-				<CardContent>
-					<Typography>{props.id}</Typography>
-					<Typography>{props.title}</Typography>
-					<Typography>{props.body}</Typography>
-				</CardContent>
-			</Card>
-		</Grid>
+		<div className="post">
+			<ul className="styles">
+				<li>{props.id}</li>
+				<li>{props.title}</li>
+				<li>{props.body}</li>
+			</ul>
+		</div>
 	);
 };
 

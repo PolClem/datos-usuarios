@@ -1,7 +1,9 @@
 .App {
-	margin-top: 10px;
-	padding: 10px;
 	text-align: center;
+}
+
+.styles {
+	list-style-type: none;
 }
 
 .App-header {
